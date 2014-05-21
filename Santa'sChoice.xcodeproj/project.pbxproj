@@ -21,6 +21,7 @@
 		AEC50B71192CFE6C00438318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC50B53192CFE6C00438318 /* UIKit.framework */; };
 		AEC50B79192CFE6C00438318 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEC50B77192CFE6C00438318 /* InfoPlist.strings */; };
 		AEC50B7B192CFE6C00438318 /* Santa_sChoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC50B7A192CFE6C00438318 /* Santa_sChoiceTests.m */; };
+		AEC50B86192CFEA000438318 /* ChimneyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC50B85192CFEA000438318 /* ChimneyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AEC50B76192CFE6C00438318 /* Santa'sChoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Santa'sChoiceTests-Info.plist"; sourceTree = "<group>"; };
 		AEC50B78192CFE6C00438318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEC50B7A192CFE6C00438318 /* Santa_sChoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Santa_sChoiceTests.m; sourceTree = "<group>"; };
+		AEC50B84192CFEA000438318 /* ChimneyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChimneyLabel.h; path = "Santa'sChoice/ChimneyLabel.h"; sourceTree = "<group>"; };
+		AEC50B85192CFEA000438318 /* ChimneyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChimneyLabel.m; path = "Santa'sChoice/ChimneyLabel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		AEC50B43192CFE6C00438318 = {
 			isa = PBXGroup;
 			children = (
+				AEC50B84192CFEA000438318 /* ChimneyLabel.h */,
+				AEC50B85192CFEA000438318 /* ChimneyLabel.m */,
 				AEC50B55192CFE6C00438318 /* Santa'sChoice */,
 				AEC50B74192CFE6C00438318 /* Santa'sChoiceTests */,
 				AEC50B4E192CFE6C00438318 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				AEC50B66192CFE6C00438318 /* ViewController.m in Sources */,
 				AEC50B60192CFE6C00438318 /* AppDelegate.m in Sources */,
+				AEC50B86192CFEA000438318 /* ChimneyLabel.m in Sources */,
 				AEC50B5C192CFE6C00438318 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
